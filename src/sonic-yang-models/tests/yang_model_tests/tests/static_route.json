@@ -4,5 +4,15 @@
     },
     "STATIC_ROUTE_TEST_WITH_INTERFACE": {
         "desc": "Configure with nexthop as interface instead of IP address"
+    },
+    "STATIC_ROUTE_TEST_WITH_BLACKHOLE": {
+        "desc": "Configure with nexthop as blackhole"
+    },
+    "STATIC_ROUTE_TEST_WITH_VRF": {
+        "desc": "Configure with routes in non default VRF"
+    },
+    "STATIC_ROUTE_TEST_WITH_VRF_LEAK": {
+        "desc": "Configure with route leak across VRFS"
     }
+
 }
