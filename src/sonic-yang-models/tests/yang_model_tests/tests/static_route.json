@@ -1,0 +1,8 @@
+{
+    "STATIC_ROUTE_TEST": {
+        "desc": "Configure basic static route with default VRFs with PREFIX"
+    },
+    "STATIC_ROUTE_TEST_WITH_INTERFACE": {
+        "desc": "Configure with nexthop as interface instead of IP address"
+    }
+}
