@@ -78,7 +78,7 @@ module sonic-static-route {
         leaf blackhole {
           type string{
             pattern "false|true";
-	        }
+	  }
           default "false";
           description
             "blackhole refers to a route that, if matched, discards the message silently.";
