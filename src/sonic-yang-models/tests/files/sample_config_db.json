@@ -1881,5 +1881,14 @@
             "global": {
             }
         }
+    },
+    "STATIC_ROUTE": {
+        "default|20.20.20.0/24": {
+            "blackhole": "false",
+            "distance": "1",
+            "ifname": "Ethernet0",
+            "nexthop": "10.10.10.1",
+            "nexthop-vrf": "default"
+        }
     }
 }
